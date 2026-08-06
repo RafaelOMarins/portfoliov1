@@ -16,18 +16,6 @@ export default function Home() {
       <h1 className="text-5xl ">RAFAEL MARINS  </h1>
       <p className="text-lg"> DEVELOPER / DEVOPS </p>
 
-
-    {/* TESTAR F0T0 DEPOIS
-    <div className="flex justify-end">
-      <Image
-      src="/imagens/foto.jpeg"
-      alt="foto de perfil"
-      width={256}
-      height={256}
-      className="w-64 h-64 rounded-full object-cover" 
-       />
-      </div>
-      */}
       <div className="mt-124">
       <button className="p-2 mr-4 border">View Projects</button>
       <button className="p-2 border">View Contact</button>
@@ -70,8 +58,83 @@ export default function Home() {
           <h1>Trajetória</h1>
           
         </div>
+      
+      </div>
+
+      <div className="flex-1 p-24 border mt-12"> {/*PROJETOSS E TECNOLOGIA AINDA*/}
+
+      <div>
+        <h1 className="text-5xl">Projects and <br></br>Technology </h1>
+        
+        <div className="mt-22 flex gap-12 justify-center ">
+        
+        <div className="border p-12">
+          <h1>Development</h1>
+          <p>React Native</p>
+          <p>Next.js</p>
+          <p>Java Script</p>
+          <p>Type script</p>
+          <p>SQL</p>         
+        </div>
+        
+        <div className="border p-12">
+          <h1>What im studying now</h1>
+          <p>DevOps</p>
+          <p>Java</p>
+          <p>C</p>
+        </div>
+        
+        <div className="border p-12">
+          <h1>Tools</h1>
+          <p>Visual Studio</p>
+          <p>Inteliji</p>
+          <p>Docker</p>
+          <p>MySQL</p>
+        </div>
+      
+      </div>
+
+      <div>
+        <h1 className="text-5xl mt-22">Wich i did ?</h1>
+        
+        <div className="flex justify-center gap-12 mt-26"> 
+        
+        <div className="border p-12">
+          <h1>Development</h1>
+          <p>React Native</p>
+          <p>Next.js</p>
+          <p>Java Script</p>
+          <p>Type script</p>
+          <p>SQL</p>         
+        </div>
+        
+        <div className="border p-12">
+          <h1>What im studying now</h1>
+          <p>DevOps</p>
+          <p>Java</p>
+          <p>C</p>
+        </div>
+        
+        <div className="border p-12">
+          <h1>Tools</h1>
+          <p>Visual Studio</p>
+          <p>Inteliji</p>
+          <p>Docker</p>
+          <p>MySQL</p>
+        </div>
+        </div>
 
       </div>
+    </div>
+  </div>
+
+        <div className="flex-1 p-24 border mt-12"> {/*CONTATO*/}
+          <h1 className="text-5xl">My Contacts</h1>
+          <p>Do you liked? Make contact to me</p>
+
+
+        </div>
+
     
     
 
