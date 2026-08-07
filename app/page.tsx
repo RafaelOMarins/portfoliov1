@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "next/Button"
 
+
 export default function Home() {
   return (
     <div className="flex-1">
@@ -123,17 +124,45 @@ export default function Home() {
           <p>MySQL</p>
         </div>
         </div>
+      
+
+        <div className="flex gap-2 items-center mt-20">
+          
+        <button className="border p-2 ">Click here to view more</button>
+        <Image 
+          src="/imagens/GITHUB.LOGO.png"
+          alt="foto logo"
+          width={128}
+          height={128}
+          className="w-12 h-12 object-cover rounded-full"
+          />
+        </div>
 
       </div>
     </div>
   </div>
 
         <div className="flex-1 p-24 border mt-12"> {/*CONTATO*/}
-          <h1 className="text-5xl">My Contacts</h1>
+          <h1 className="text-5xl ">My Contacts</h1>
           <p>Do you liked? Make contact to me</p>
 
 
+        
+          <div className="mt-22">
+            <h1 className="text-xl">There are my links</h1>
+
+            <div className="mt-12">
+            <h1 className="mb-8 border">My Gmail</h1>
+            <h1 className="mb-8 border">My GitHub</h1>
+            <h1 className="mb-8 border">My GitLab</h1>
+            <h1 className="mb-8 border">My Linkedin</h1>
+            </div>
+            
+
+
+          </div>
         </div>
+        <h1 className="mt-6 mb-2">@RafaelMarins 2026</h1>
 
     
     
