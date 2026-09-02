@@ -36,27 +36,67 @@ export default function Home() {
       height={256}
       className="w-70 h-90 object-cover" 
        />
-       <h1 className="p-4"> [13:45, 05/08/2026] Rafael Marins: Dá tempo de eu casar no mesmo tempo que você tenta superar esse quase nada
-            [13:45, 05/08/2026] Rafael Marins: Atualmente você está dando liberar seu butic9
-            [13:45, 05/08/2026] Rafael Marins: E da minha família só Zé Pedro tá solteiro oficialmente falando que ele deve ter cinco pretendentes escondido dos pais
-            [13:45, 05/08/2026] Rafael Marins: Não
-            [13:45, 05/08/2026] Rafael Marins: Eu já respondi isso ontem
-            [13:45, 05/08/2026] Rafael Marins: Maluco como é que tu vai namorar se tu não arruma
-            [13:45, 05/08/2026] Rafael Marins: As mina não vem até nós não cara
-            [13:45, 05/08/2026] Rafael Marins: Dá tempo de eu casar no mesmo tempo que você tenta superar esse quase nada
-            [13:45, 05/08/2026] Rafael Marins: Atualmente você está dando liberar seu butic9
-            [13:45, 05/08/2026] Rafael Marins: E da minha família só Zé Pedro tá solteiro oficialmente falando que ele deve ter cinco pretendentes escondido dos pais
-            [13:45, 05/08/2026] Rafael Marins: Não
-            [13:45, 05/08/2026] Rafael Marins: Eu já respondi isso ontem
-            [13:45, 05/08/2026] Rafael Marins: Maluco como é que tu vai namorar se tu não arruma
-            [13:45, 05/08/2026] Rafael Marins: As mina não vem até nós não cara
+       <h1 className="p-4">
+        <text className="text-2xl">Olá!</text> 
+        <br></br>Sou Rafael Marins, atualmente sou técnico em Análise e Desenvolvimento de Sistemas e estudante de ciência da computação na FACAPE. 
+        <br></br>Entusiasta da tecnologia e do desenvolvimento de software.Tenho experiência acadêmica e prática com Java, Spring Boot, MySQL, APIs REST, Git e GitHub, além de conhecimentos em desenvolvimento Front-End com HTML, CSS, JavaScript, React e Next.js. 
+        <br></br>Atualmente, venho direcionando meus estudos para Backend com Java e Spring boot, além disso também DevOps, explorando tecnologias e práticas como Docker, CI/CD, Terraform e Kubernetes.
+        <br></br>Gosto de transformar ideias em projetos reais e utilizo meus projetos como forma de colocar em prática o que aprendo, buscando sempre escrever código mais organizado, seguro e escalável.
+        Estou constantemente buscando evoluir minhas habilidades, aprender novas tecnologias e me preparar para atuar profissionalmente na área de desenvolvimento de software, com foco em Backend Java e DevOps.
         </h1>
 
         
       </div>
 
-        <div className="border mt-22 p-60">
+        <div className="border mt-22 p-4">
           <h1>Trajetória</h1>
+          <p>01 — O começo
+
+Formação em Análise e Desenvolvimento de Sistemas
+
+Foi durante minha formação que tive meus primeiros contatos com programação, bancos de dados e desenvolvimento de aplicações. Comecei explorando diferentes tecnologias e descobrindo em qual área gostaria de me aprofundar.
+
+HTML CSS JavaScript MySQL Firebase
+
+02 — Explorando o desenvolvimento
+
+Do Front-End ao desenvolvimento de aplicações
+
+Passei a desenvolver projetos utilizando tecnologias modernas de Front-End, enquanto aprendia conceitos importantes de programação, APIs e integração entre sistemas.
+
+React Next.js Tailwind CSS REST API
+
+03 — Foco em Backend
+
+Java + Spring Boot
+
+Com o tempo, comecei a direcionar meus estudos para Backend. Java e Spring Boot se tornaram parte importante da minha jornada, permitindo que eu trabalhasse com APIs, banco de dados, autenticação, regras de negócio e arquitetura de aplicações.
+
+Java Spring Boot JPA Hibernate MySQL
+
+04 — Construindo projetos reais
+
+Aprender fazendo
+
+Passei a transformar os conhecimentos adquiridos em projetos próprios, como sistemas de reserva e aplicações de gerenciamento. Esses projetos me ajudaram a entender melhor como diferentes partes de uma aplicação se conectam.
+
+Backend Frontend Database Authentication
+
+05 — Entrando no DevOps
+
+Do código para produção
+
+Atualmente, estou expandindo meus conhecimentos para DevOps, estudando como automatizar, empacotar, testar e disponibilizar aplicações.
+
+Git GitHub Docker CI/CD Terraform Kubernetes
+
+06 — Próximo passo
+
+Continuar evoluindo.
+
+Meu objetivo é continuar evoluindo como desenvolvedor, aprofundando meus conhecimentos em Backend Java e DevOps e construindo projetos cada vez mais completos, seguros e escaláveis.
+
+LEARNING = TRUE</p>
           
         </div>
       
@@ -70,27 +110,29 @@ export default function Home() {
         <div className="mt-22 flex gap-12 justify-center ">
         
         <div className="border p-12">
-          <h1>Development</h1>
-          <p>React Native</p>
+          <h1>Frontend</h1>
+          <p>React</p>
           <p>Next.js</p>
-          <p>Java Script</p>
-          <p>Type script</p>
-          <p>SQL</p>         
+          <p>HTML</p>
+          <p>CSS</p>
+          <p>JavaScript</p>         
         </div>
         
         <div className="border p-12">
-          <h1>What im studying now</h1>
-          <p>DevOps</p>
+          <h1>Backend</h1>
           <p>Java</p>
-          <p>C</p>
+          <p>Spring boot</p>
+          <p>MySql</p>
+          <p>API Rest</p>
+          <p>Jpa/Hibernate</p>
         </div>
         
         <div className="border p-12">
-          <h1>Tools</h1>
-          <p>Visual Studio</p>
-          <p>Inteliji</p>
+          <h1>DevOps</h1>
+          <p>Github Actions</p>
           <p>Docker</p>
-          <p>MySQL</p>
+          <p>Terraform</p>
+          <p>Kubernetes</p>
         </div>
       
       </div>
@@ -101,19 +143,7 @@ export default function Home() {
         <div className="flex justify-center gap-12 mt-26"> 
         
         <div className="border p-12">
-          <h1>Development</h1>
-          <p>React Native</p>
-          <p>Next.js</p>
-          <p>Java Script</p>
-          <p>Type script</p>
-          <p>SQL</p>         
-        </div>
-        
-        <div className="border p-12">
-          <h1>What im studying now</h1>
-          <p>DevOps</p>
-          <p>Java</p>
-          <p>C</p>
+          <h1>reservaLab</h1>      
         </div>
         
         <div className="border p-12">
