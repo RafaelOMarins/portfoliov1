@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Button from "next/Button"
 
 
 export default function Home() {
